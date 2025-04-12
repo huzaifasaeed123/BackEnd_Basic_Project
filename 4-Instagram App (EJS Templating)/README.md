@@ -36,7 +36,10 @@ This project is an Express.js-based web application demonstrating templating wit
 
 ## Screenshots:
 
-*(Embed your project screenshots here.)*
+![Screenshot 2025-04-12 170016](https://github.com/user-attachments/assets/9403a54a-a422-47f5-b25b-e26e216f72b3)
+
+![Screenshot 2025-04-12 170057](https://github.com/user-attachments/assets/2f4f4485-62c4-49b3-bffe-ef242b72fd3e)
+
 
 ---
 This project effectively demonstrates basic routing, EJS templating, and static file handling to create dynamic and interactive web pages.
