@@ -42,8 +42,9 @@ This project is a Node.js-based chat application designed to showcase the retrie
 - MongoDB running locally at: `mongodb://127.0.0.1:27017/whatsapp`
 
 ## Screenshots:
-
-*(Embed your project screenshots here.)*
+![Screenshot 2025-04-12 171031](https://github.com/user-attachments/assets/f4f383e8-6e15-4a0f-9722-ef3e607a8837)
+![Screenshot 2025-04-12 171053](https://github.com/user-attachments/assets/277d61be-2dba-4e74-b7fa-4aa301524a33)
+![Screenshot 2025-04-12 171105](https://github.com/user-attachments/assets/960fb1b2-ce35-4af6-aad0-02326a0d045b)
 
 ---
 This application effectively demonstrates backend management of chat functionalities, including interaction with a database, dynamic routing, and API integration in Node.js.
