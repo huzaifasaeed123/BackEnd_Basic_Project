@@ -29,18 +29,6 @@ This repository contains a series of backend projects using Node.js, Express.js,
 ### 8. MongoDB Relation
 - Explores relational data handling in MongoDB, demonstrating user-post-customer relationships using schemas and models.
 
-## General Project Structure:
-```
-.
-├── Models (used specifically in MongoDB Relation)
-│   ├── customers.js
-│   ├── post.js
-│   └── user.js
-├── node_modules
-├── .gitignore
-├── package-lock.json
-└── package.json
-```
 
 ## Requirements:
 - Node.js installed locally.
