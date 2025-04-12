@@ -37,8 +37,8 @@ This project demonstrates user management operations using Express.js and MySQL,
 - Implements `method-override` to support PATCH and DELETE HTTP methods.
 
 ## Screenshots:
-
-*(Embed your project screenshots here.)*
-
+![Screenshot 2025-04-12 173029](https://github.com/user-attachments/assets/c8e8636e-b2d2-44ae-95fb-7b393d63259d)
+![Screenshot 2025-04-12 173042](https://github.com/user-attachments/assets/b855b720-ddf3-45b7-b614-3ae9a2b58e1c)
+![Screenshot 2025-04-12 173057](https://github.com/user-attachments/assets/4e6effb8-978b-41ee-b566-4f1935df429a)
 ---
 This application highlights effective management of user data through robust database interactions, query execution, and server-side operations using Express.js and MySQL.
