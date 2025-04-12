@@ -42,8 +42,9 @@ This project demonstrates managing posts through CRUD operations using Express.j
 - Employs EJS templating for rendering views dynamically.
 
 ## Screenshots:
-
-*(Embed your project screenshots here.)*
+![Screenshot 2025-04-12 170244](https://github.com/user-attachments/assets/ab013b8e-66bc-47dd-a6b8-33618e0e3eca)
+![Screenshot 2025-04-12 170345](https://github.com/user-attachments/assets/02c9271a-79e5-4f5a-b7d3-9b4bc1e9a3f5)
+![Screenshot 2025-04-12 170351](https://github.com/user-attachments/assets/743e4abe-fcda-4ce4-b440-9ff7ced849cf)
 
 ---
 This project serves as a practical implementation of basic CRUD functionality using Express.js and server-side rendering with EJS.
