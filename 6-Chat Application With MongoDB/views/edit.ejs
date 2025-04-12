@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Chat</title>
+</head>
+<body>
+
+    <form method="post" action="/chat/<%= editchat._id  %>?_method=PUT">
+        <p>From: <%= editchat.from  %></p>
+        <p>To: <%= editchat.to  %></p>
+        <p>To: <%= editchat._id  %></p>
+        <br><br>
+        <p>Time: <%= editchat.created_at.toString().split(" ")[4]  %></p>
+         <p>Date: <%= editchat.created_at.toString().split(" ").slice(0,4).join("-")  %></p>
+
+        <label for="">Message::</label> <br><br>
+        <textarea   name="msg"   cols="30" rows="10"><%= editchat.msg  %></textarea> <br><br>
+
+        <button type="submit">Submit Form</button>
+
+    </form>
+    
+</body>
+</html>

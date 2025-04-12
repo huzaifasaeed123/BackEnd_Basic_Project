@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Qoura</h1>
+
+    <% for(let obj of posts){ %>
+        <div class="postdiv">
+        <h3 class="username">Username Is: <%=obj.username %></h3>
+        <h5 class="content"><%= obj.content %></h5>
+        <a href="/post/<%= obj.id %>">See In Detail</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="/post/<%= obj.id %>/edit">EDIT YOUR POST</a>
+        &nbsp; &nbsp;&nbsp;&nbsp;
+        <form method="post" action="/post/<%= obj.id %>/?_method=DELETE">
+            <button type="submit">Delete Post</button>
+        </form>
+        
+
+
+        </div>
+        
+
+    <% } %>
+
+    <br><br>
+
+    <a href="http://localhost:3000/post/new">Create New Post</a>
+    
+    
+
+    
+</body>
+</html>

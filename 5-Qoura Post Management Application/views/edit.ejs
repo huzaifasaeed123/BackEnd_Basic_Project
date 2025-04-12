@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Post</title>
+</head>
+<body>
+    <h3>ID IS:::<%= singlepost.id %></h3>
+    <h3 class="username">Username Is: <%=singlepost.username %></h3>
+    <form method="post" action="/post/<%= singlepost.id %>?_method=PATCH">
+        <label for="">Content</label> &nbsp;&nbsp;&nbsp;<br><br>
+        <textarea  placeholder="Content" name="content" id="" cols="30" rows="10">
+            <%= singlepost.content %>
+        </textarea> <br><br>
+        <input type="submit" value="SUBMIT">
+    </form>
+    
+</body>
+</html>

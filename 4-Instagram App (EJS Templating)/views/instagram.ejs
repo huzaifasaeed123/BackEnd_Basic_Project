@@ -1,0 +1,27 @@
+<%- include("includes/head.ejs");%>
+<body>
+    <h1>This Username Belong To <%= search_data.name %></h1>
+    <button>Follow</button>
+    <button>Message</button>
+    <h3>Accounts That Follow You</h3>
+    <p>Followes:: <%= search_data.followers %></p>
+    <p>Following:: <%= search_data.following %></p>
+    <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column;">
+
+        
+        <% for(let post of search_data.posts){%>
+            <img style="height: 300px; width: 300px;" src="<%=post.image%>" alt="Image Not Available">
+            <ul>
+                <li>Likes:: <%=post.likes%></li>
+                <li>Comments:: <%=post.comments%></li>
+            </ul>
+         
+         <%}%>
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+    
+</body>
+</html>
